@@ -4,23 +4,20 @@
 int main() {
     const int n = 7;
     int arr[n];
-    int *px = arr;  // покажчик на масив
+    int *px = arr;  
     int min_odd, i;
-    int odd_found = 0;  // прапорець для визначення наявності непарних чисел
+    int odd_found = 0;  
 
-    // Задання першого елемента масиву
     *px = 201;
     printf("arr[0] = %d\n", *px);
 
-    // Введення інших елементів масиву з клавіатури
     for (i = 1; i < n; i++) {
         printf("Enter arr[%d]: ", i);
-        scanf("%d", px + i);  // збереження введеного числа через розіменування покажчика
+        scanf("%d", px + i);  
     }
 
-    // Пошук мінімального непарного елемента
     for (i = 0; i < n; i++) {
-        if (*(px + i) % 2 != 0) {  // перевірка на непарність
+        if (*(px + i) % 2 != 0) {
             if (!odd_found || *(px + i) < min_odd) {
                 min_odd = *(px + i);
                 odd_found = 1;
