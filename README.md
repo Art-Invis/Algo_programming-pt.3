@@ -66,7 +66,6 @@ Each lab is paired with a detailed Markdown assignment sheet under `/docs`, desc
 |---------|------------|
 | **C**     | Pointers, arrays, loops, switch-case, memory access |
 | **C++**   | Functions, string manipulation, matrix logic, dynamic memory |
-| **Python**| PyTest, decorators, OOP, environment setup |
 | **Rust**  | Series approximation, slicing, safe memory handling |
 
 Markdown used throughout for docs.  
@@ -107,7 +106,6 @@ Formatted with emojis because debugging is more fun when it smiles back 😊
    - C: `gcc task_2.c -o task_2 && ./task_2`  
    - C++: `g++ task_1.cpp -o task_1 && ./task_1`  
    - Rust: `cargo run` or `rustc task.rs && ./task`  
-   - Python: `python task_3.py`
 
 4. Open the corresponding lab description  
    ```
