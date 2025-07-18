@@ -69,7 +69,6 @@ Each lab is paired with a detailed Markdown assignment sheet under `/docs`, desc
 | **Rust**  | Series approximation, slicing, safe memory handling |
 
 Markdown used throughout for docs.  
-Formatted with emojis because debugging is more fun when it smiles back 😊
 
 ---
 
@@ -94,7 +93,7 @@ Formatted with emojis because debugging is more fun when it smiles back 😊
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/artem-sokol/academic-labs.git
+   git clone https://github.com/.../Algo-programing-pt.3.git
    ```
 
 2. Navigate to a lab folder  
